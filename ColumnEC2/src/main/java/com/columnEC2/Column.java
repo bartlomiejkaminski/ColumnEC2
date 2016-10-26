@@ -14,33 +14,33 @@ public class Column {
 	IntegerProperty 	strengthOfConcreteFck 	= new SimpleIntegerProperty();	// [MPa]
 	StringProperty 		nameStrengthOfConcrete  = new SimpleStringProperty();	// Text
 	// Reinforcing steel
-	IntegerProperty 	strengthOfSteelFyk 		= new SimpleIntegerProperty();	// [MPa]
-	StringProperty		nameStrengthOfSteel		= new SimpleStringProperty();	// Text
+	IntegerProperty 	strengthOfSteelFyk 	= new SimpleIntegerProperty();	// [MPa]
+	StringProperty		nameStrengthOfSteel	= new SimpleStringProperty();	// Text
 	
 	
 	//DIMENSIONS	
 	// Rectangle
-	IntegerProperty 	widthRectangle 			= new SimpleIntegerProperty();	// [cm]
-	IntegerProperty 	heightRectangle 		= new SimpleIntegerProperty();	// [cm]
-	IntegerProperty 	distanceARectangle 		= new SimpleIntegerProperty();	// [cm]
+	IntegerProperty 	widthRectangle 		= new SimpleIntegerProperty();	// [cm]
+	IntegerProperty 	heightRectangle 	= new SimpleIntegerProperty();	// [cm]
+	IntegerProperty 	distanceARectangle 	= new SimpleIntegerProperty();	// [cm]
 	// Circle
-	IntegerProperty 	diameterCircle 			= new SimpleIntegerProperty();	// [cm]
-	IntegerProperty 	distanceACircle 		= new SimpleIntegerProperty();	// [cm]
-	
+	IntegerProperty 	diameterCircle 		= new SimpleIntegerProperty();	// [cm]
+	IntegerProperty 	distanceACircle 	= new SimpleIntegerProperty();	// [cm]
+
 
 	//CALCULATION PARAMETERS
-	StringProperty 		nameExposureClass  		= new SimpleStringProperty();	// Text
-	DoubleProperty	 	coatingOfSteel 			= new SimpleDoubleProperty();	// [mm]
+	StringProperty 		nameExposureClass  	= new SimpleStringProperty();	// Text
+	DoubleProperty	 	coatingOfSteel 		= new SimpleDoubleProperty();	// [mm]
 	StringProperty 		nameStructureClass  	= new SimpleStringProperty();	// Text
-	IntegerProperty 	label1 					= new SimpleIntegerProperty();	// [mm]
-	IntegerProperty 	label2 					= new SimpleIntegerProperty();	// [mm]
-	IntegerProperty 	label3 					= new SimpleIntegerProperty();	// [mm]
-	IntegerProperty 	label4 					= new SimpleIntegerProperty();	// [mm]	
-	DoubleProperty 		creepRate				= new SimpleDoubleProperty();	// [-]	effective creep rate
+	IntegerProperty 	label1 			= new SimpleIntegerProperty();	// [mm]
+	IntegerProperty 	label2 			= new SimpleIntegerProperty();	// [mm]
+	IntegerProperty 	label3 			= new SimpleIntegerProperty();	// [mm]
+	IntegerProperty 	label4 			= new SimpleIntegerProperty();	// [mm]	
+	DoubleProperty 		creepRate		= new SimpleDoubleProperty();	// [-]	effective creep rate
 	
 	//LOADS
-	DoubleProperty	 	compressiveForce 		= new SimpleDoubleProperty();
-	DoubleProperty	 	bendingMoment 			= new SimpleDoubleProperty();
+	DoubleProperty	 	compressiveForce 	= new SimpleDoubleProperty();
+	DoubleProperty	 	bendingMoment 		= new SimpleDoubleProperty();
 	DoubleProperty	 	computationalHeight 	= new SimpleDoubleProperty();
 	
 	
